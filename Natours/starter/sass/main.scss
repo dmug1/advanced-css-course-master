@@ -1,10 +1,6 @@
-/*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
+$color-primary:#55c57a;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
 
 
 *,
@@ -22,7 +18,7 @@ html {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    /*font-size: 16px;
+    /*font-size: 16px;*/
 
     line-height: 1.7;
     color: #777;
@@ -33,9 +29,14 @@ body {
 
 .header{
     height: 95vh;
+    
     background-image: 
-        linear-gradient(to right bottom, #7ed56fe0,#28b485bb),
+        linear-gradient
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8),
         url(../img/hero.jpg);
+
     background-size: cover;
     background-position: top;  
 
@@ -59,7 +60,7 @@ body {
 .logo:hover{
     animation: moveInRight 1s ease-in;
 }
-
+*/
 
 .header__text-box{
     position: absolute;
@@ -92,7 +93,7 @@ body {
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-timing-function: step-end;
-    
+    */
 
 }
 
@@ -206,4 +207,3 @@ body {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
-*/
