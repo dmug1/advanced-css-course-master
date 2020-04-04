@@ -6226,3 +6226,5 @@ Natours/node_modules/.bin/which.cmd
 Natours/node_modules/.bin/which.ps1
 
 Natours/package-lock.json
+
+Natours/starter/node_modules

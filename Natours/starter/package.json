@@ -1,12 +1,12 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "Landindg page for natours",
+  "description": "landing page for natour",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass starter/sass/main.scss starter/css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "Diego",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.1"
